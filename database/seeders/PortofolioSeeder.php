@@ -19,12 +19,12 @@ class PortofolioSeeder extends Seeder
             $clientName = 'Client ' . $index;
             $slug = Str::slug($clientName);
 
-            $count = DB::table('portfolios')->where('slug', 'LIKE', "$slug%")->count();
+            $count = DB::table('portofolios')->where('slug', 'LIKE', "$slug%")->count();
             if ($count > 0) {
                 $slug = $slug . '-' . ($count + 1);
             }
 
-            DB::table('portfolios')->insert([
+            DB::table('portofolios')->insert([
                 'project_name' => 'Project ' . $index,
                 'description'  => 'This is the description for project ' . $index,
                 'client_name'  => $clientName,
