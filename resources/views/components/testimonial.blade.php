@@ -12,7 +12,7 @@
             <div class="active-testimonial-carusel">
                 <div class="single-testimonial item d-flex flex-row">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/elements/user1.png" alt="">
+                        <img class="img-fluid" src="{{ asset('img/elements/user1.png') }}" alt="">
                     </div>
                     <div class="desc">
                         <p>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="single-testimonial item d-flex flex-row">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/elements/user2.png" alt="">
+                        <img class="img-fluid" src="{{ asset('img/elements/user2.png') }}" alt="">
                     </div>
                     <div class="desc">
                         <p>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="single-testimonial item d-flex flex-row">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/elements/user1.png" alt="">
+                        <img class="img-fluid" src="{{ asset('img/elements/user1.png') }}" alt="">
                     </div>
                     <div class="desc">
                         <p>
@@ -60,13 +60,13 @@
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>								
-                        </div>			                            
+                            <span class="fa fa-star"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="single-testimonial item d-flex flex-row">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/elements/user2.png" alt="">
+                        <img class="img-fluid" src="{{ asset('img/elements/user2.png') }}" alt="">
                     </div>
                     <div class="desc">
                         <p>

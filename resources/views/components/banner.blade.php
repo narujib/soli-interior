@@ -10,7 +10,7 @@
                 <p class="text-white mx-auto">
                     Solusi desain interior dan furnitur kustom yang memperhatikan setiap detail untuk menciptakan ruang yang fungsional dan estetis.
                 </p>
-                <a href="#" class="primary-btn header-btn text-uppercase mt-10">Hubungi Kami</a>
+                <a href="https://wa.me/+6281296287336" class="primary-btn header-btn text-uppercase mt-10">Hubungi Kami</a>
             </div>
         </div>
     </div>

@@ -1917,6 +1917,59 @@ body.mobile-nav-active #mobile-nav-toggle {
 .alert-msg {
     color: #008000;
 }
+.sec-btn {
+    background-color: #fff;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 25px;
+    border: 1px solid #daa520;
+    color: #daa520;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.sec-btn:focus {
+    outline: none;
+}
+.sec-btn span {
+    color: #daa520;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.sec-btn:hover {
+    background-color: #daa520;
+    color: #fff;
+}
+.sec-btn:hover span {
+    color: #fff;
+    right: 20px;
+}
+.sec-btn.white {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.sec-btn.white span {
+    color: #fff;
+}
+.sec-btn.white:hover {
+    background: #fff;
+    color: #daa520;
+}
+.sec-btn.white:hover span {
+    color: #daa520;
+}
 .primary-btn {
     background-color: #daa520;
     line-height: 42px;
@@ -2011,6 +2064,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .banner-content p {
     max-width: 900px;
+}
+.head-btn {
+    background-color: #fff;
+    border-radius: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid transparent;
+    color: #000000;
+}
+.head-btn:hover {
+    border: 1px solid #000000;
+    background: transparent;
+    color: #000000;
 }
 .header-btn {
     background-color: #daa520;
@@ -2433,12 +2499,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-/* .contact-page-area .single-contact-address .lnr {
-            font-size: 30px;
-            font-weight: 500;
-            color: #daa520;
-            margin-right: 30px;
-        } */
 .footer-social a:hover i {
     color: #daa520;
 }
@@ -2680,6 +2740,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
     margin-bottom: 0px;
 }
+.nav-menu .nav-item.active a {
+    color: #daa520;
+}
 .about-content {
     margin-top: 110px;
     padding: 50px 0px;
@@ -2691,6 +2754,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 .about-content h1 {
+    margin-bottom: 20px;
     font-size: 48px;
     font-weight: 600;
 }
@@ -2930,8 +2994,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff !important;
 }
 .blog-pagination {
-    padding-top: 60px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 .blog-pagination .page-link {
     border-radius: 0;
@@ -3434,21 +3498,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-color: #daa520 !important;
     color: #daa520 !important;
 }
-
 .galleryfull {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     width: 100%;
 }
-
 .galleryfull a {
     display: block;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
 }
-
 .galleryfull img {
     width: 100%;
     height: auto;
@@ -3456,7 +3517,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: transform 0.3s ease;
     border-radius: 8px;
 }
-
 .galleryfull img:hover {
     transform: scale(1.1);
 }
@@ -3472,13 +3532,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     align-items: center;
     z-index: 1000;
 }
-
 .lightbox img {
     max-width: 95%;
     max-height: 95%;
     border-radius: 8px;
 }
-
 .close {
     position: absolute;
     top: 15px;
@@ -3490,7 +3548,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 5px 10px;
     border-radius: 50%;
 }
-
 .prev,
 .next {
     position: absolute;
@@ -3503,14 +3560,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 50%;
     cursor: pointer;
 }
-
 .prev {
     left: 20px;
 }
 .next {
     right: 20px;
 }
-
 @media (max-width: 768px) {
     .galleryfull {
         grid-template-columns: 1fr;

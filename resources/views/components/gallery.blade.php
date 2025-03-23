@@ -12,12 +12,12 @@
             <div class="col-lg-8">
                 <div class="single-gallery">
                     <div class="content">
-                        <a href="#" target="_blank">
+                        <a href="/portofolios">
                         <div class="content-overlay"></div>
-                            <img class="content-image img-fluid d-block mx-auto" src="img/g1.jpg" alt="">
+                            <img class="content-image img-fluid d-block mx-auto" src="{{ asset('img/g1.jpg') }}" alt="">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title mx-auto">Lavendar ambient interior</h3>
-                            <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+                            <a href="/portofolios" class="primary-btn text-uppercase mt-20">Lihat Semua</a>
                         </div>
                         </a>
                     </div>
@@ -26,12 +26,12 @@
             <div class="col-lg-4">
                 <div class="single-gallery">
                     <div class="content">
-                        <a href="#" target="_blank">
+                        <a href="/portofolios">
                         <div class="content-overlay"></div>
-                            <img class="content-image img-fluid d-block mx-auto" src="img/g2.jpg" alt="">
+                            <img class="content-image img-fluid d-block mx-auto" src="{{ asset('img/g2.jpg') }}" alt="">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title mx-auto">Ambient interior</h3>
-                            <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+                            <a href="/portofolios" class="primary-btn text-uppercase mt-20">Lihat Semua</a>
                         </div>
                         </a>
                     </div>
@@ -40,12 +40,12 @@
             <div class="col-lg-4">
                 <div class="single-gallery">
                     <div class="content">
-                        <a href="#" target="_blank">
+                        <a href="/portofolios">
                         <div class="content-overlay"></div>
-                            <img class="content-image img-fluid d-block mx-auto" src="img/g3.jpg" alt="">
+                            <img class="content-image img-fluid d-block mx-auto" src="{{ asset('img/g3.jpg') }}" alt="">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title mx-auto">Ambient interior</h3>
-                            <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+                            <a href="/portofolios" class="primary-btn text-uppercase mt-20">Lihat Semua</a>
                         </div>
                         </a>
                     </div>
@@ -54,17 +54,17 @@
             <div class="col-lg-8">
                 <div class="single-gallery">
                     <div class="content">
-                        <a href="#" target="_blank">
+                        <a href="/portofolios">
                         <div class="content-overlay"></div>
-                            <img class="content-image img-fluid d-block mx-auto" src="img/g4.jpg" alt="">
+                            <img class="content-image img-fluid d-block mx-auto" src="{{ asset('img/g4.jpg') }}" alt="">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title mx-auto">Lavendar ambient interior</h3>
-                            <a href="project-details.html" class="primary-btn text-uppercase mt-20">More Details</a>
+                            <a href="/portofolios" class="primary-btn text-uppercase mt-20">Lihat Semua</a>
                         </div>
                         </a>
                     </div>
                 </div>
-            </div>												
+            </div>
         </div>
-    </div>	
+    </div>
 </section>

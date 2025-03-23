@@ -10,7 +10,7 @@
                     <p class="mx-auto">
                         Kami menyediakan solusi desain interior yang tidak hanya estetis, tetapi juga fungsional dan sesuai dengan anggaran Anda. Ayo, mulailah mendiskusikan proyek Anda bersama kami!
                     </p>
-                    <a href="#" class="primary-btn text-uppercase">Hubungu Kami</a>
+                    <a href="https://wa.me/+6281296287336" class="primary-btn text-uppercase">Hubungu Kami</a>
                 </div>
             </div>
         </div>

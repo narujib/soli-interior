@@ -12,25 +12,25 @@
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                         <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>			
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
-        <div id="logo">
-            <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-        </div>
-        <nav id="nav-menu-container">
-            <ul class="nav-menu">
-            <li class="menu-active"><a href="/">Beranda</a></li>
-            <li><a href="#">Profil</a></li>
-            <li><a href="/service">Layanan</a></li>
-            <li><a href="/portofolio">Portofolio</a></li>	
-            <li><a href="/contact">Kontak</a></li>
-            </ul>
-        </nav>
+            <div id="logo">
+                <a href="index.html"><img src="{{ asset('img/logo.png') }}" alt="" title="" /></a>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="nav-item {{ Request::is('/') ? 'active' : '' }}"><a href="/">Beranda</a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li class="nav-item {{ Request::is('services') ? 'active' : '' }}"><a href="/services">Layanan</a></li>
+                    <li class="nav-item {{ Request::is('portofolios*') ? 'active' : '' }}"><a href="/portofolios">Portofolio</a></li>	
+                    <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}"><a href="/contact">Kontak</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>

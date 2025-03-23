@@ -12,7 +12,7 @@
             <div class="active-blog-carusel">
                 <div class="single-blog-post item">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b1.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/b1.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <div class="tags">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="single-blog-post item">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b2.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/b2.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <div class="tags">
@@ -44,7 +44,7 @@
                                 </li>
                                 <li>
                                     <a href="#">Life Style</a>
-                                </li>											
+                                </li>
                             </ul>
                         </div>
                         <a href="#"><h4 class="title">Creative Outdoor Ads</h4></a>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="single-blog-post item">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b3.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/b3.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <div class="tags">
@@ -66,7 +66,7 @@
                                 </li>
                                 <li>
                                     <a href="#">Life Style</a>
-                                </li>											
+                                </li>
                             </ul>
                         </div>
                         <a href="#"><h4 class="title">It's Classified How To Utilize Free</h4></a>
@@ -78,7 +78,7 @@
                 </div>	
                 <div class="single-blog-post item">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b1.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/b1.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <div class="tags">
@@ -88,7 +88,7 @@
                                 </li>
                                 <li>
                                     <a href="#">Life Style</a>
-                                </li>											
+                                </li>
                             </ul>
                         </div>
                         <a href="#"><h4 class="title">Low Cost Advertising</h4></a>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="single-blog-post item">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b2.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/b2.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <div class="tags">
@@ -110,7 +110,7 @@
                                 </li>
                                 <li>
                                     <a href="#">Life Style</a>
-                                </li>											
+                                </li>
                             </ul>
                         </div>
                         <a href="#"><h4 class="title">Creative Outdoor Ads</h4></a>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="single-blog-post item">
                     <div class="thumb">
-                        <img class="img-fluid" src="img/b3.jpg" alt="">
+                        <img class="img-fluid" src="{{ asset('img/b3.jpg') }}" alt="">
                     </div>
                     <div class="details">
                         <div class="tags">
@@ -132,7 +132,7 @@
                                 </li>
                                 <li>
                                     <a href="#">Life Style</a>
-                                </li>											
+                                </li>
                             </ul>
                         </div>
                         <a href="#"><h4 class="title">It's Classified How To Utilize Free</h4></a>
@@ -140,9 +140,8 @@
                             Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.
                         </p>
                         <h6 class="date">31st January,2018</h6>
-                    </div>	
-                </div>														
-
+                    </div>
+                </div>
             </div>
         </div>
     </div>	

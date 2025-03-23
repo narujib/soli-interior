@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PortofolioController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,18 +17,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/portofolio', function () {
-    return view('portofolio');
-});
-Route::get('/service', function () {
-    return view('service');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/services', [ServiceController::class, 'index']);
+
+Route::get('/portofolios', [PortofolioController::class, 'index']);
+Route::get('/portofolios/{slug}', [PortofolioController::class, 'show']);
+
+// Route::get('/portofolios', function () {
+//     return view('portofolios');
+// });
 Route::get('/detail', function () {
     return view('portofolio-detail');
 });

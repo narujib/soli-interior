@@ -2,6 +2,6 @@
 
 @section('content')
 <div class="pt-30 pb-30">
-    @include('components.portofolio')
+    @include('components.portofolios')
 </div>
 @endsection
